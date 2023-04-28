@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+main{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    height: max-content;
+    width: 400px;
+    height: 550px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px hsl(225, 100%, 94%);
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+#img1{
+    width: 100%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+}
+p{
+    color: hsl(224, 23%, 55%);
+}
+.h1{
+    align-self: center;
+    justify-self: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    color: hsl(223, 47%, 23%);
+}
+.music{
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    margin-bottom: 0.8em;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    background-color: hsl(225, 100%, 98%);
+    padding: 3%;
+    margin: 0 10%;
+    margin-bottom: 1.5em;
+    border-radius: 12px;
+}
+.plan{
+    display: flex;
+}
+#img2{
+    align-self: center;
+    margin-right: 0.5em;
+    height: 3em;
+}
+.ptxt{
+    align-self: center;
+}
+.ch{
+    align-self: center;
+    color: hsl(245, 75%, 52%);
+    padding-right: 0.5em;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 5em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.b1{
+    height: 3em;
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 12px;
+}
+.can{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
